@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="331.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EditPantyController">
+   <children>
+      <ImageView fitHeight="331.0" fitWidth="438.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/editPopMessage.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="77.0" fitWidth="77.0" layoutX="181.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/editbutton.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="181.0" layoutY="266.0" mnemonicParsing="false" onAction="#EditPanty" prefHeight="27.0" prefWidth="77.0" style="-fx-background-color: invisible;" />
+      <TextField fx:id="editPantyID" layoutX="201.0" layoutY="107.0" onKeyTyped="#numberOnlyChecker" prefHeight="14.0" prefWidth="167.0" style="-fx-background-color: invisible;" />
+      <TextField fx:id="editPantyStyle" layoutX="201.0" layoutY="137.0" onKeyTyped="#numberOnlyChecker" prefHeight="14.0" prefWidth="167.0" style="-fx-background-color: invisible;" />
+      <TextField fx:id="editPantyColor" layoutX="201.0" layoutY="168.0" onKeyTyped="#numberOnlyChecker" prefHeight="14.0" prefWidth="167.0" style="-fx-background-color: invisible;" />
+      <TextField fx:id="editPantyMaterial" layoutX="201.0" layoutY="199.0" onKeyTyped="#numberOnlyChecker" prefHeight="14.0" prefWidth="167.0" style="-fx-background-color: invisible;" />
+      <TextField fx:id="editPantySize" layoutX="201.0" layoutY="228.0" onKeyTyped="#numberOnlyChecker" prefHeight="14.0" prefWidth="167.0" style="-fx-background-color: invisible;" />
+   </children>
+</AnchorPane>

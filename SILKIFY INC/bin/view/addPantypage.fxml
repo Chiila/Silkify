@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="331.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddPantyController">
+   <children>
+      <ImageView fitHeight="331.0" fitWidth="455.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/addPopMessage.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="addPantyID" layoutX="177.0" layoutY="103.0" onKeyTyped="#numberOnlyChecker" prefHeight="4.0" prefWidth="183.0" style="-fx-background-color: invisible;" />
+      <TextField fx:id="addPantyStyle" layoutX="177.0" layoutY="134.0" onKeyTyped="#numberOnlyChecker" prefHeight="4.0" prefWidth="183.0" style="-fx-background-color: invisible;" />
+      <TextField fx:id="addPantyColor" layoutX="177.0" layoutY="166.0" onKeyTyped="#numberOnlyChecker" prefHeight="4.0" prefWidth="183.0" style="-fx-background-color: invisible;" />
+      <TextField fx:id="addPantyMaterial" layoutX="177.0" layoutY="198.0" onKeyTyped="#numberOnlyChecker" prefHeight="4.0" prefWidth="183.0" style="-fx-background-color: invisible;" />
+      <TextField fx:id="addPantySize" layoutX="177.0" layoutY="226.0" onKeyTyped="#numberOnlyChecker" prefHeight="4.0" prefWidth="183.0" style="-fx-background-color: invisible;" />
+      <ImageView fitHeight="79.0" fitWidth="83.0" layoutX="180.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/addstockbutton.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="180.0" layoutY="263.0" mnemonicParsing="false" onAction="#AddPanty" prefHeight="31.0" prefWidth="79.0" style="-fx-background-color: invisible;" />
+   </children>
+</AnchorPane>

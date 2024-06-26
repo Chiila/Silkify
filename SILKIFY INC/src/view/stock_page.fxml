@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="467.0" prefWidth="758.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.StockController">
+   <children>
+      <ImageView fitHeight="481.0" fitWidth="758.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/Background.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="304.0" layoutY="-19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/stocksfont.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="85.0" layoutX="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/backbutton.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="85.0" layoutX="651.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/refreshbutton.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="102.0" layoutX="27.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/addstockbutton.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="93.0" layoutX="333.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/deletebutton.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="93.0" layoutX="643.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/editbutton.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="651.0" layoutY="26.0" mnemonicParsing="false" onAction="#ffStocks" prefHeight="34.0" prefWidth="85.0" style="-fx-background-color: invisible;" textFill="WHITE" />
+      <Pane fx:id="pane1" layoutX="27.0" layoutY="94.0" prefHeight="283.0" prefWidth="127.0" visible="false">
+         <children>
+            <ImageView fitHeight="93.0" fitWidth="93.0" layoutX="17.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/pantyyy.png" />
+               </image></ImageView>
+            <Text fx:id="pantyID1" fill="#b8285f" layoutX="7.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PANTY ID #" textAlignment="CENTER" wrappingWidth="113.0">
+               <font>
+                  <Font name="Segoe UI Black" size="17.0" />
+               </font></Text>
+            <Text fx:id="style1" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STYLE1" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="12.0" />
+               </font></Text>
+            <Text fx:id="color1" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COLOR1" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="12.0" />
+               </font></Text>
+            <Text fx:id="material1" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MATERIAL1" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="12.0" />
+               </font></Text>
+            <Text fx:id="size1" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SIZE1" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="12.0" />
+               </font></Text>
+            <Text fx:id="style11" layoutX="7.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STYLE:" wrappingWidth="48.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="style111" layoutX="7.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COLOR:" wrappingWidth="48.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="style1111" layoutX="7.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MATERIAL:" wrappingWidth="71.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="style11111" layoutX="7.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SIZE:" wrappingWidth="71.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+         </children></Pane>
+      <Pane fx:id="pane2" layoutX="171.0" layoutY="94.0" prefHeight="283.0" prefWidth="127.0" visible="false">
+         <children>
+            <ImageView fitHeight="93.0" fitWidth="93.0" layoutX="17.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/pantyyy.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="pantyID2" fill="#b8285f" layoutX="7.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PANTY ID #" textAlignment="CENTER" wrappingWidth="113.0">
+               <font>
+                  <Font name="Segoe UI Black" size="17.0" />
+               </font>
+            </Text>
+            <Text fx:id="style2" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STYLE2" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB " size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="color2" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COLOR2" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB " size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="material2" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MATERIAL2" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB " size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="size2" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SIZE2" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB " size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="style112" layoutX="9.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STYLE:" wrappingWidth="48.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="style1112" layoutX="9.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COLOR:" wrappingWidth="48.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="style11112" layoutX="9.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MATERIAL:" wrappingWidth="71.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="style111111" layoutX="9.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SIZE:" wrappingWidth="71.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane fx:id="pane3" layoutX="316.0" layoutY="94.0" prefHeight="283.0" prefWidth="127.0" visible="false">
+         <children>
+            <ImageView fitHeight="93.0" fitWidth="93.0" layoutX="17.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/pantyyy.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="pantyID3" fill="#b8285f" layoutX="7.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PANTY ID #" textAlignment="CENTER" wrappingWidth="113.0">
+               <font>
+                  <Font name="Segoe UI Black" size="17.0" />
+               </font></Text>
+            <Text fx:id="style3" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STYLE3" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB " size="12.0" />
+               </font></Text>
+            <Text fx:id="color3" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COLOR3" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB " size="12.0" />
+               </font></Text>
+            <Text fx:id="material3" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MATERIAL3" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB " size="12.0" />
+               </font></Text>
+            <Text fx:id="size3" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SIZE3" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB " size="12.0" />
+               </font></Text>
+            <Text fx:id="style1121" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STYLE:" wrappingWidth="48.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="style11121" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COLOR:" wrappingWidth="48.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="style111121" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MATERIAL:" wrappingWidth="71.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="style1111111" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SIZE:" wrappingWidth="71.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+         </children></Pane>
+      <Pane fx:id="pane5" layoutX="609.0" layoutY="92.0" prefHeight="283.0" prefWidth="127.0" visible="false">
+         <children>
+            <ImageView fitHeight="93.0" fitWidth="93.0" layoutX="17.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/pantyyy.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="pantyID5" fill="#b8285f" layoutX="7.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PANTY ID #" textAlignment="CENTER" wrappingWidth="113.0">
+               <font>
+                  <Font name="Segoe UI Black" size="17.0" />
+               </font></Text>
+            <Text fx:id="style5" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STYLE5" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="12.0" />
+               </font></Text>
+            <Text fx:id="color5" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COLOR5" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="12.0" />
+               </font></Text>
+            <Text fx:id="material5" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MATERIAL5" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="12.0" />
+               </font></Text>
+            <Text fx:id="size5" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SIZE5" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="12.0" />
+               </font></Text>
+            <Text fx:id="style112111" layoutX="-2.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STYLE:" wrappingWidth="48.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="style1112111" layoutX="-2.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COLOR:" wrappingWidth="48.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="style11112111" layoutX="-2.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MATERIAL:" wrappingWidth="71.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="style111111111" layoutX="-2.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SIZE:" wrappingWidth="71.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+         </children></Pane>
+      <Pane fx:id="pane4" layoutX="461.0" layoutY="94.0" prefHeight="283.0" prefWidth="127.0" visible="false">
+         <children>
+            <ImageView fitHeight="93.0" fitWidth="93.0" layoutX="17.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/pantyyy.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="pantyID4" fill="#b8285f" layoutX="7.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PANTY ID #" textAlignment="CENTER" wrappingWidth="113.0">
+               <font>
+                  <Font name="Segoe UI Black" size="17.0" />
+               </font></Text>
+            <Text fx:id="style4" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STYLE4" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB " size="12.0" />
+               </font></Text>
+            <Text fx:id="color4" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COLOR4" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB " size="12.0" />
+               </font></Text>
+            <Text fx:id="material4" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MATERIAL4" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB " size="12.0" />
+               </font></Text>
+            <Text fx:id="size4" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SIZE4" textAlignment="RIGHT" wrappingWidth="127.0">
+               <font>
+                  <Font name="Berlin Sans FB " size="12.0" />
+               </font></Text>
+            <Text fx:id="style11211" layoutX="-1.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STYLE:" wrappingWidth="48.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="style111211" layoutX="-1.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COLOR:" wrappingWidth="48.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="style1111211" layoutX="-1.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MATERIAL:" wrappingWidth="71.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="style11111111" layoutX="-1.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SIZE:" wrappingWidth="71.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="12.0" />
+               </font>
+            </Text>
+         </children></Pane>
+      <Button layoutX="31.0" layoutY="26.0" mnemonicParsing="false" onAction="#goToHomepage" prefHeight="34.0" prefWidth="85.0" style="-fx-background-color: invisible;" />
+      <Button layoutX="31.0" layoutY="388.0" mnemonicParsing="false" onAction="#goToAddPantypage" prefHeight="34.0" prefWidth="93.0" style="-fx-background-color: invisible;" />
+      <Button layoutX="333.0" layoutY="409.0" mnemonicParsing="false" onAction="#goToDeletePantypage" prefHeight="27.0" prefWidth="93.0" style="-fx-background-color: invisible;" />
+      <Button layoutX="643.0" layoutY="384.0" mnemonicParsing="false" onAction="#goToEditPantypage" prefHeight="34.0" prefWidth="93.0" style="-fx-background-color: invisible;" />
+   </children>
+</AnchorPane>
